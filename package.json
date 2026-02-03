@@ -3,11 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Abdousami.github.io/threejs-3d-About-me",
   "scripts": {
     "dev": "vite",
+    "deploy": "gh-pages -d dist",
     "build": "vite build"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "vite": "^4.0.4"
   },
   "dependencies": {
